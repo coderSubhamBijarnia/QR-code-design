@@ -1,36 +1,46 @@
 body {
-    font-family: "Outfit";
-    background-color: rgb(213, 225, 239);
-    height: 100vh;
-    text-align: center;
-  }
-  
-  .card {
-    position: fixed;
-    margin: auto;
-    inset: 0;
-    background-color: rgb(255, 255, 255);
-    height: fit-content;
-    width: 325px;
-    padding: 21px;
-    border-radius: 25px;
-    box-shadow: 0 5px 10px 10px rgb(125 125 125 / 10%);
-    box-sizing: border-box;
-  }
-  
-  img {
-    width: 100%;
-    border-radius: 15px;
-    box-sizing: border-box;
-  }
-  
-  h2 {
-    color: hsl(218, 44%, 22%);
-    font-weight: 700;
-  }
-  
-  p {
-    color: hsl(216, 15%, 48%);
-    font-weight: 400;
-  }
-  
+  font-family: "Outfit";
+  background-color: #d5e1ef;
+  height: 100vh;
+  text-align: center;
+}
+
+.card {
+  position: fixed;
+  margin: auto;
+  inset: 0;
+  background-color: #ffffff;
+  height: 500px;
+  width: 320px;
+  padding: 16px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px 10px rgb(125 125 125 / 10%);
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.card-info {
+  /* margin: 24px 0; */
+  padding: 24px 16px;
+}
+
+h2 {
+  color: #1f314f;
+  margin: 0;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: bold;
+}
+
+p {
+  color: #68778d;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
